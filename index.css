@@ -1,0 +1,1197 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+@media (max-width: 1300px) {
+  .body {
+    padding: calc(20px + 30 * (100vw - 320px) / 1300);
+  }
+}
+body {
+  position: relative;
+  width: 1366px;
+  height: 5085px;
+  background: #FFFEFC;
+  margin: 0;
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+body .header {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  left: 0px;
+  top: 0px;
+  background-image: url("img/coffee_image.png");
+  font-family: "Clicker Script", cursive;
+}
+body .logo-cafe {
+  position: absolute;
+  width: 135px;
+  height: 46px;
+  left: 93px;
+  top: 21px;
+  font-family: "Clicker Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 46px;
+  text-decoration: none;
+  color: #FFFFFF;
+  z-index: 3;
+}
+body .logo-cafe:hover {
+  color: #F9C06A;
+}
+body .link-home {
+  position: absolute;
+  width: 38px;
+  height: 19px;
+  left: 493px;
+  top: 34px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .link-home:hover {
+  color: #F9C06A;
+}
+body .link-menu {
+  position: absolute;
+  width: 36px;
+  height: 19px;
+  left: 591px;
+  top: 34px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .link-menu:hover {
+  color: #F9C06A;
+}
+body .link-about-us {
+  position: absolute;
+  width: 57px;
+  height: 19px;
+  left: 687px;
+  top: 34px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .link-about-us:hover {
+  color: #F9C06A;
+}
+body .link-contact-us {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 804px;
+  top: 34px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+body .link-contact-us:hover {
+  color: #F9C06A;
+}
+body .link-sign-in {
+  position: absolute;
+  width: 45px;
+  height: 19px;
+  left: 1093px;
+  top: 34px;
+  text-decoration: none;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+body .link-sign-in:hover {
+  color: #F9C06A;
+}
+body .link-button {
+  position: absolute;
+  width: 100px;
+  height: 48px;
+  left: 1173px;
+  top: 20px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-singup {
+  position: absolute;
+  width: 43.81px;
+  height: 13.38px;
+  left: 25px;
+  top: 11px;
+  color: #1E1E1E;
+  font-family: "Playfair Display";
+  text-decoration: none;
+}
+body .link-singup:hover {
+  color: #FFFFFF;
+}
+body .description-wish {
+  position: absolute;
+  width: 369px;
+  height: 29px;
+  left: 93px;
+  top: 183px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+body .logo-coffee {
+  position: absolute;
+  width: 449px;
+  height: 291px;
+  left: 93px;
+  font-family: "Clicker Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 220px;
+  line-height: 291px;
+  color: #FFFFFF;
+}
+body .description {
+  position: absolute;
+  width: 527px;
+  height: 102px;
+  left: 93px;
+  top: 503px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+body .link-button-Order-Now {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 93px;
+  top: 625px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+  text-decoration: none;
+}
+body .link-Order-Now:hover {
+  color: #FFFFFF;
+}
+body .description-coffee {
+  position: absolute;
+  width: 585px;
+  height: 72px;
+  left: 93px;
+  top: 918px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
+}
+body .description-Bean-Scene {
+  position: absolute;
+  width: 571.25px;
+  height: 155.44px;
+  left: 93.08px;
+  top: 1028.32px;
+  color: #707070;
+  font-size: 20px;
+}
+body .img-coffee-cup {
+  position: absolute;
+  width: 680px;
+  height: 576px;
+  left: 700px;
+  top: 839px;
+}
+body .button-Learn-More {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 93px;
+  top: 1218px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-Learn-More {
+  position: absolute;
+  width: 87px;
+  height: 21px;
+  left: 25px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .link-Learn-More:hover {
+  color: #FFFFFF;
+}
+body .coffee-blast {
+  position: absolute;
+  width: 498px;
+  height: 272px;
+  left: -121px;
+  top: 1261px;
+}
+body .wish-coffee {
+  position: absolute;
+  width: 795px;
+  height: 72px;
+  left: 286px;
+  top: 1416px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
+}
+body .recommendations {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 170px;
+  top: 1520px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .img-cappuccino {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 93px;
+  top: 1590px;
+}
+body .img-chai-latte {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 393px;
+  top: 1590px;
+}
+body .img-macchiato {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 693px;
+  top: 1590px;
+}
+body .img-expresso {
+  position: absolute;
+  width: 280px;
+  height: 222px;
+  left: 993px;
+  top: 1590px;
+}
+body .img-title-Cappuccino {
+  position: absolute;
+  width: 122px;
+  height: 29px;
+  left: 172px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-cappuccino-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 156px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-cappuccino-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 210px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Chai-Latte {
+  position: absolute;
+  width: 104px;
+  height: 29px;
+  left: 481px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-chai-latte-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 456px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-chai-latte-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 510px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Macchiato {
+  position: absolute;
+  width: 106px;
+  height: 29px;
+  left: 780px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-macchiato-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 756px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-macchiato-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 810px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .img-title-Expresso {
+  position: absolute;
+  width: 93px;
+  height: 29px;
+  left: 1087px;
+  top: 1806px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  color: #603809;
+}
+body .img-expresso-skitka {
+  position: absolute;
+  width: 154px;
+  height: 21px;
+  left: 1056px;
+  top: 1841px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1E1E1E;
+}
+body .img-expresso-price {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 1110px;
+  top: 1868px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #603809;
+}
+body .link-button-Order-Now-cappuccino {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 166px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-chai-latte {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 466px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-Macchiato {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 766px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-button-Order-Now-Expresso {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 1066px;
+  top: 1910px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .Cappuccino-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Cappuccino-link-Order-Now:hover {
+  color: #FFFFFF;
+}
+body .Chai-Latte-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Chai-Latte-link-Order-Now:hover {
+  color: #FFFFFF;
+}
+body .Macchiato-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Macchiato-link-Order-Now:hover {
+  color: #FFFFFF;
+}
+body .Expresso-link-Order-Now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .Expresso-link-Order-Now:hover {
+  color: #FFFFFF;
+}
+body .div-question-coffee-shop {
+  position: absolute;
+  width: 578px;
+  height: 112px;
+  left: 394px;
+  top: 2020px;
+}
+body .question-coffee-shop {
+  width: 538px;
+  height: 72px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
+}
+body .inscription-wishes {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 163px;
+  top: 2128px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .img-coffee-blast {
+  position: absolute;
+  width: 378px;
+  height: 261px;
+  left: 989px;
+  top: 1930px;
+}
+body .Group-background {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 93px;
+  top: 2194px;
+  background: #FFEED8;
+}
+body .group-coffee {
+  position: absolute;
+  width: 201px;
+  height: 212px;
+  left: 132px;
+  top: 2230px;
+}
+body .background-high-quality {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 393px;
+  top: 2194px;
+}
+body .group-high-quality {
+  position: absolute;
+  width: 166px;
+  height: 212px;
+  left: 450px;
+  top: 2230px;
+}
+body .background-Extraordinary {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 693px;
+  top: 2194px;
+}
+body .group-extraordinary {
+  position: absolute;
+  width: 183px;
+  height: 212px;
+  left: 742px;
+  top: 2230px;
+}
+body .background-Affordable-Price {
+  position: absolute;
+  width: 280px;
+  height: 284px;
+  left: 993px;
+  top: 2194px;
+}
+body .group-affordable-price {
+  position: absolute;
+  width: 211px;
+  height: 212px;
+  left: 1028px;
+  top: 2230px;
+}
+body .motivation-quote-coffee {
+  position: absolute;
+  width: 980px;
+  height: 70px;
+  left: 193px;
+  top: 2510px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #707070;
+}
+body .continuation-quote-coffee {
+  position: absolute;
+  width: 980px;
+  height: 70px;
+  left: 193px;
+  top: 2525px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #603809;
+}
+body .button-Join-Us {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 616px;
+  top: 2604px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .link-Join-Us {
+  position: absolute;
+  width: 52px;
+  height: 21px;
+  left: 40px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .link-Join-Us:hover {
+  color: #FFFFFF;
+}
+body .coffee {
+  position: absolute;
+  width: 1366px;
+  height: 574px;
+  left: 0px;
+  top: 2734px;
+}
+body .img-coffee-bean {
+  position: absolute;
+  width: 657px;
+  height: 574px;
+  left: 710px;
+  top: 2734px;
+}
+body .img-cup {
+  position: absolute;
+  width: 300px;
+  height: 467px;
+  left: 893px;
+  top: 2788px;
+  filter: drop-shadow(0px 10px 12px rgba(0, 0, 0, 0.34));
+}
+body .coffee-amazing-morning {
+  position: absolute;
+  width: 575px;
+  height: 144px;
+  left: 93px;
+  top: 2859px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+body .life-coffee {
+  position: absolute;
+  width: 409px;
+  height: 68px;
+  left: 97px;
+  top: 3045px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+body .background-button-order-now {
+  position: absolute;
+  width: 134px;
+  height: 48px;
+  left: 93px;
+  top: 3145px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 24px;
+}
+body .coffee-order-now {
+  position: absolute;
+  width: 82px;
+  height: 21px;
+  left: 26px;
+  top: 11px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #1E1E1E;
+}
+body .coffee-order-now:hover {
+  color: #FFFFFF;
+}
+body .feedback-coffee {
+  position: absolute;
+  width: 764px;
+  height: 72px;
+  left: 301px;
+  top: 3390px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #603809;
+}
+body .reviews-customer {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 173px;
+  top: 3498px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .frame-background {
+  box-sizing: border-box;
+  position: absolute;
+  width: 980px;
+  height: 524px;
+  left: 193px;
+  top: 3557px;
+  background: #FFF9F1;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+}
+body .coffee-img {
+  position: absolute;
+  width: 398px;
+  height: 272px;
+  left: 970px;
+  top: 3411px;
+}
+body .img-blast {
+  position: absolute;
+  width: 414px;
+  height: 226px;
+  left: -26px;
+  top: 3911px;
+}
+body .staples {
+  position: absolute;
+  width: 103px;
+  height: 112px;
+  left: 222px;
+  top: 3411px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 220px;
+  line-height: 112px;
+  color: #603809;
+}
+body .historical-description {
+  position: absolute;
+  width: 780px;
+  height: 185px;
+  left: 293px;
+  top: 3686px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+}
+body .author {
+  position: absolute;
+  width: 210px;
+  height: 43px;
+  left: 578px;
+  top: 3899px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #603809;
+}
+body .icon {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  left: 627px;
+  top: 4025px;
+  filter: drop-shadow(0px 6px 12px rgba(249, 192, 106, 0.22));
+  border-radius: 16px;
+}
+body .Project-Manager {
+  position: absolute;
+  width: 147px;
+  height: 34px;
+  left: 610px;
+  top: 3946px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+body .but-arrow-right {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  left: 1132px;
+  top: 3778px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 16px;
+  cursor: pointer;
+  border: none;
+}
+body .but-arrow-left {
+  position: absolute;
+  width: 82px;
+  height: 82px;
+  left: 152px;
+  top: 3778px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  border-radius: 16px;
+  cursor: pointer;
+  border: none;
+}
+body .img-group-coff {
+  position: absolute;
+  width: 1366px;
+  height: 374px;
+  left: 0px;
+  top: 4219px;
+}
+body .fotter-image {
+  position: absolute;
+  width: 1366px;
+  height: 698px;
+  left: 0px;
+  top: 4593px;
+  background: #442808;
+}
+body .img-pngwing-cup {
+  position: absolute;
+  width: 404px;
+  height: 408px;
+  left: -47px;
+  top: 4387px;
+}
+body .img-cup-pngwing {
+  position: absolute;
+  width: 404px;
+  height: 408px;
+  left: 962px;
+  top: 4387px;
+}
+body .Subscribe {
+  position: absolute;
+  width: 796px;
+  height: 72px;
+  left: 285px;
+  top: 4299px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+body .tips-and-special-offers {
+  position: absolute;
+  width: 980px;
+  height: 34px;
+  left: 175px;
+  top: 4410px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+}
+body .search-txt {
+  box-sizing: border-box;
+  position: absolute;
+  width: 642px;
+  height: 66px;
+  left: 362px;
+  top: 4487px;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  background: #FFF9F1;
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  border-radius: 4px;
+}
+body .button-Suscribe {
+  position: absolute;
+  width: 137px;
+  height: 66px;
+  left: 867px;
+  top: 4487px;
+  border-radius: 4px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px rgba(249, 192, 106, 0.22);
+  font-family: "Playfair Display";
+  color: #603809;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+body .button-Suscribe:hover {
+  color: #FFFFFF;
+}
+body .img-link-cellular-networks {
+  position: absolute;
+  width: 156px;
+  height: 24px;
+  top: 120px;
+}
+body .img-link-Facebok {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 93px;
+  top: 4987px;
+}
+body .img-link-Instagram {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 137px;
+  top: 4987px;
+}
+body .img-link-Youtube {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 181px;
+  top: 4989px;
+}
+body .img-link-Twitter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 225px;
+  top: 4989px;
+}
+body .Bean-Scene {
+  position: absolute;
+  width: 207px;
+  height: 71px;
+  left: 93px;
+  top: 4785px;
+  font-family: "Clicker Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 71px;
+  color: #FFFFFF;
+}
+body .Lorem-Ipsum {
+  position: absolute;
+  width: 380px;
+  height: 123px;
+  left: 93px;
+  top: 4920px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+body .description-p {
+  position: absolute;
+  width: 136px;
+  height: 168px;
+  left: 539px;
+  top: 4910px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+body .about {
+  position: absolute;
+  width: 73px;
+  height: 35px;
+  left: 539px;
+  top: 4835px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+body .Company {
+  position: absolute;
+  width: 115px;
+  height: 35px;
+  left: 741px;
+  top: 4835px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+body .description-Company {
+  position: absolute;
+  width: 134px;
+  height: 168px;
+  left: 741px;
+  top: 4910px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+body .Contact-Us {
+  position: absolute;
+  width: 129px;
+  height: 35px;
+  left: 941px;
+  top: 4835px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+body .description-Contact-Us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 22px;
+  position: absolute;
+  width: 332px;
+  height: 192px;
+  left: 941px;
+  top: 4925px;
+  font-family: "Playfair Display";
+  color: #FFFFFF;
+}/*# sourceMappingURL=index.css.map */
