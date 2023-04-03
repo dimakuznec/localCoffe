@@ -12,4 +12,4 @@ document.onmousemove = (e)=> {
 function handleClick() {
 	let inputText = document.getElementById("input-field").value;
 	alert("Вы ввели: " + inputText);
-}
+};
