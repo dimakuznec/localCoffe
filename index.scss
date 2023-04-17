@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
 @media(max-width: 1300px) {
- .body:hover {
-  padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1300 -320)));
-  font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1300 -320)));
-  margin-bottom: calc(10px + (20 - 20) * ((100vw - 320px) / (1300 -320)));
-
-  }
-}
+  .body:hover {
+   padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1300 -320)));
+   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1300 -320)));
+   margin-bottom: calc(10px + (20 - 20) * ((100vw - 320px) / (1300 -320)));
+ 
+   }
+ }
+ 
 body {
   position: relative;
   width: 1366px;
