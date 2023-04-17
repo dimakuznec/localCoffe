@@ -19,7 +19,7 @@
                 <a class="link-home" href="#">Home</a>
                 <a class="link-menu" href="#"> Menu</a>
                 <a class="link-about-us" href="#">About Us</a>
-                <a class="link-contact-us" href="#">Contact Us</a>
+                <a class="link-contact-us" href="Contact-us.php?id=Contact Us">Contact Us</a>
                 <a class="link-sign-in" href="registration.php">Sign In</a>
             </div>
 
